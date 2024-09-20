@@ -2,10 +2,10 @@
   <img src="https://envs.sh/P0O.jpg" alt="Benzmovies Logo">
 </p>
 <h1 align="center">
-  VJ FILTER BOT
+  B E N Z
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+BENZ+Bot!)
 </p>
 
 ## Main Feature 
@@ -32,7 +32,7 @@
 - [x] Custom Tutorial Button
 - [x] Bot Pm File Auto Delete 
 
-Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Update Regarding Repo.</b>
+Join My <a href='https://telegram.dog/Benzmovies>Update Channel</a> For More Update Regarding Repo.</b>
 
 ### How To Deploy : [Video Tutorial](https://youtu.be/J5tiWdc_AWM)
 
