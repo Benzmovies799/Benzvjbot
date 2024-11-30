@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8000327637:AAEeM6nq1O755dX6Eq1yjBT6ztPNN8-
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/2d20cb938f67aa3f94876.jp')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/2d20cb938f67aa3f94876.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegram.dog/howtosolvelinks/4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
