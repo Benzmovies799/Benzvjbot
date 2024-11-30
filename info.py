@@ -17,16 +17,16 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'Benzbot')
 API_ID = int(environ.get('API_ID', '16582302'))
 API_HASH = environ.get('API_HASH', '336ae5acc37e4031e98ca682557cca66')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6589241609:AAEzPlbSLiP9GnKjgBPJS_Dm0b_MeLaub3U")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8000327637:AAEeM6nq1O755dX6Eq1yjBT6ztPNN8-xQOc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/2d20cb938f67aa3f94876.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/2d20cb938f67aa3f94876.jp')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegram.dog/howtosolvelinks/4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -51,9 +51,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://primebaby11220:TuGa0I5ZsiC8mp5A@cluster0.df4rivj.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "primebaby11220")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://arunb16518:MAXWELL456rd@cluster0.4mgzw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Benz Random Files")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Benz Random Files')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
@@ -71,9 +71,9 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+xXTTgPD9oa02ZTll')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/benzmovies')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtosolvelinks/4')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+veG2PpVpZQ03ZDYx')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://telegram.dog/benzmovies')
+TUTORIAL = environ.get('TUTORIAL', 'https://telegram.dog/howtosolvelinks/4')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -143,7 +143,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")  #dhini walla anukunta bhai
 
 
 # Rename Info : If True Then Bot Rename File Else Not
