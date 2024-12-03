@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Benzbot')
-API_ID = int(environ.get('API_ID', '16582302'))
-API_HASH = environ.get('API_HASH', '336ae5acc37e4031e98ca682557cca66')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8000327637:AAEeM6nq1O755dX6Eq1yjBT6ztPNN8-xQOc")
+API_ID = int(environ.get('API_ID', '25431746'))
+API_HASH = environ.get('API_HASH', '1523ff2092c6c564b2614cf5b6828f7e')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7790498363:AAGKJtIfFm2tJ5pHF6PrlWugPQ0mnIKHnok")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -30,9 +30,9 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegram.dog/howtosolvelinks/4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001942699601'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '957055438,7052956157').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002031604620').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ' -1002377796510'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7052956157').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002427979447').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -51,8 +51,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://benz123:qo1v9mt5rjPSm9Q3@cluster0.4mgzw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "benz123")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tarunbandreddi6565:Ia12p70UcfgcAocU@cluster0.x0u97.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "tarunbandreddi6565")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Benzmawafiles')
 
 # Premium And Referal Settings
@@ -71,8 +71,8 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+veG2PpVpZQ03ZDYx')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://telegram.dog/benzmovies')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Ljr1qFX8kC9mYzRl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://telegram.dog/benzmovies1')
 TUTORIAL = environ.get('TUTORIAL', 'https://telegram.dog/howtosolvelinks/4')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
 
